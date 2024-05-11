@@ -1,0 +1,51 @@
+Anotações aula: Introdução a ciência de dados
+
+Introdução a Aprendizado de Máquina
+
+	> A oberservação representa a regra a partir de um determinado dado
+	> Melhorar a definição de regras para objetivo por meio da prática
+	> Treinar o modelo é otimizar o estado de prática do aprendizado
+	> Abstração de dados, trazer o que é relevante para o modelo
+
+Exemplos:
+	> Classifcar pacientes de alto risco que devem fazer um certo tipo de cirurgia
+	> Prever clientes maus pagadores (risco de crédito)
+	> Prever comportamento de compra
+	> Recomendar filmes, músicas para usuários
+	> precificar imóveis baseado em características e padrões
+
+Aprendizado supervisionado x Aprendizado Não supervisionado
+
+> No aprendizado supervisionado, existe o conjunto de dados estruturados e rotulados, dividindo em regiões
+> No aptrendizado não supervisionado, existe o conjunto de dados não rotulados, classificando as amostras em agrupamento ou clusters.
+
+Classificação x Regressão > ambos métodos supervisionados
+
+Classificação:
+	- Variável categórica como alvo
+	- Estima uma hipótese que cria fronteira de decisão entre categorias
+Exemplo:
+	> Filtro de Spam em emails
+		classes: Spam ou não Spam
+	> Filtro de bom pagador
+		classes: Bom pagador ou mau pagador
+
+Regressão:
+	- Variável contínua como variável alvo
+	- Estima hipótese que minimiza o erro entre variável alvo e métrica
+Exemplo:
+	> Precificação de imóveis
+
+_Classificação(determinarção exata) x Regressão(valor contínuo numérico) x Clusterização(agrupamento)_
+
+
+
+Treinamento e Avaliação
+	- Desempenho de algoritimos supervisionados
+		> Métrica mais comum para classificação: "Acurácia"
+			>> Acurácia = total de acertos/total de itens
+
+		> Métrica mais comum para Regressão: "MAE (Mean Absolute Error)"
+			
+Treino/teste - treinamento do modelo usando maior parte do dataset (70%) e o teste (30%) para avaliar o modelo resultando numa acurácia
+		
